@@ -4,6 +4,8 @@ colors solarized
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in TAB when editing
 set expandtab       " tabs are spaces
+set autoindent      " applies previous TAB
+set smartindent     " especially for C
 
 set number          " show line numbers
 set showcmd         " show command in bottom bar
