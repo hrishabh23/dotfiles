@@ -7,6 +7,7 @@ set softtabstop=4   " number of spaces in TAB when editing
 set expandtab       " tabs are spaces
 set autoindent      " applies previous TAB
 set smartindent     " especially for C
+set shiftwidth=4    " solves problems with tabs
 
 set number relativenumber       " show line numbers
 set showcmd                     " show command in bottom bar
