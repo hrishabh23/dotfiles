@@ -1,6 +1,7 @@
 syntax enable       " enable syntax processing
 colors kuroi
 set background=dark " just for kuroi
+set t_Co=256
 
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in TAB when editing

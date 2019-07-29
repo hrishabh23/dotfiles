@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Updating ~/.vimrc file..."
-cp ~/.vimrc ./vimrc
+cp -v ~/.vimrc ./vimrc
 
 echo "Updating ~/.vim/ directory..."
-cp -r  ~/.vim/* .
+cp -rv  ~/.vim/* .
 
 echo "Update Completed."
