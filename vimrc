@@ -1,6 +1,9 @@
+" Author: Hrishabh Rajput
+" Path: $HOME/.vimrc
+
 syntax enable       " enable syntax processing
 colors kuroi
-set background=dark " just for kuroi
+set background=dark " just for kuroi colorscheme
 set t_Co=256
 
 set tabstop=4       " number of visual spaces per TAB
@@ -17,4 +20,7 @@ set showmatch                   " highlight matching brackets
 set wildmode=longest,list,full  " enable autocomplete
 set splitbelow splitright       " splits new window at bottom or right
 
-set incsearch               " search as characters are entered
+set incsearch                   " search as characters are entered
+set backspace=indent,eol,start  " make backspaces work correctly
+set cpo-=$
+set nocp
